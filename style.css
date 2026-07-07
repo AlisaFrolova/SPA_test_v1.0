@@ -17,19 +17,55 @@ blue-10: #2E3A92 */
     justify-content: space-around;
     align-items: center;
     background-color: #0d1117;
+    border-bottom: 1px solid #E2E8F0;
 }
 .logo{
     width: 10vw;
-    height: 10vw;
+    height: 100%;
     background: url("images/logo_dark.jpg");
     background-size: cover;
 }
 .main-nav{
     width: 70%;
     height: 50%;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     display: flex;
     gap: 3vw;
     justify-content: center;
+    align-items: center; 
+}
+.main-nav a{
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s, border-bottom 0.3s; 
+}
+.main-nav a.active{
+    border-bottom: 2px solid #2E3A92;
+}
+.main-nav a:hover{
+    color: #2E3A92;
+}
+
+/* HomeView  */
+.hero{
+    width: 100vw;
+    height: 30vw; 
+    text-align: center;
+    background-color: #090b0f;
+}
+.hero-headers{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+.hero-headers h1{
+    font-size: 4rem;
+    padding: 1vw;
+}
+.hero-headers p{
+    font-size: 2rem;
+    font-style: italic;
 }

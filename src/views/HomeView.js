@@ -1,12 +1,16 @@
 export default class HomeView{
     constructor() {
-        this.title = "Home"
+        this.title = "Astra Spectrum Analytics"
     }
 
     async render(){
         return `
-        <h1>${this.title}</h1>
-        <p>"Hello, World!"</p>
+        <section class="hero">
+            <hgroup class="hero-headers">
+                <h1>${this.title}</h1>
+                <p>"Hello, World!"</p>
+            </hgroup>
+        </section>
         <div class="search-box">
             <input type="text" id="page-search" placeholder="Search page...">
         </div>
