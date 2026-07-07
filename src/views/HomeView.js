@@ -6,7 +6,7 @@ export default class HomeView{
     async render(){
         return `
         <h1>${this.title}</h1>
-        <p style="font-style: italic;">"Hello, World!"</p>
+        <p>"Hello, World!"</p>
         <div class="search-box">
             <input type="text" id="page-search" placeholder="Search page...">
         </div>

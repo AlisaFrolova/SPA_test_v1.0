@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #E2E8F0;
+}
+/* black-60: #0d1117
+white-30: #E2E8F0
+blue-10: #2E3A92 */
+/* header and footer  */
+.header{
+    width: 100vw;
+    height: 10vw;
+    display:flex;
+    gap: 5vw;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0d1117;
+}
+.logo{
+    width: 10vw;
+    height: 10vw;
+    background: url("images/logo_dark.jpg");
+    background-size: cover;
+}
+.main-nav{
+    width: 70%;
+    height: 50%;
+    font-size: 1.2rem;
+    display: flex;
+    gap: 3vw;
+    justify-content: center;
+    align-items: center;
+}
