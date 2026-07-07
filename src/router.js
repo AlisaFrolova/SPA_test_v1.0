@@ -1,11 +1,13 @@
 import HomeView from "./views/HomeView.js"
 import SpaceView from "./views/SpaceView.js"
 import NewsView from "./views/NewsView.js"
+import AboutView from "./views/AboutView.js";
 
 const routes = {
     "/": HomeView,
     "/space": SpaceView,
-    "/news": NewsView
+    "/news": NewsView,
+    "/about": AboutView
 };
 
 export const initRouter = () => {
